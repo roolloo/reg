@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="conteiner">
+
+		<button class="opnwind">
+		sub
+		</button>
+
+		<div class="modolwind ">
+
+			<form id="form" class="form" name="sendMail" action="javascript:sendMail();" method="GET">
+				<h1 class="title decor">
+					submit email
+				</h1>
+				<input placeholder="name:" maxlength="16" name="text" class="text name decor" type="text" required>
+				<input placeholder="email:" maxlength="20" name="text2" class="text decor" type="email" required>
+				<input placeholder="password:" maxlength="16" minlength="4" class="text decor" type="password" required>
+
+				<button class="btn decor" type="submit">submit</button>
+
+			</form>
+			<button class="none">
+
+			</button>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.slim.js"></script>
+
+	<script src="/js/script.js"></script>
+</body>
+
+</html>
